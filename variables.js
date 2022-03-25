@@ -2,16 +2,19 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
+const myName = "Joseph"
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
+let faveNum = 15
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -21,10 +24,17 @@
 */
 
 //CODE HERE
-
+if (faveNum === 13){
+  console.log("Lucky 13!")
+} else {
+  console.log("Not lucky 13.")
+}
 //////////////////PROBLEM 5////////////////////
 /*
   Write a for loop that prints out your faveNum 5 times.
 */
 
 //CODE HERE
+for (let i = 0; i < 5; i++){
+  console.log(faveNum)
+}
